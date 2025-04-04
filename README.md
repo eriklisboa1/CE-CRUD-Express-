@@ -71,6 +71,8 @@ O **CRUD Generator - CE CRUD Express** é uma aplicação desktop que facilita a
    mvn clean package ```
 
 ## Diagrama de Arquitetura
+![Diagrama Mermaid](Editor%20_Mermaid%20Chart-2025-04-04-180614.svg)
+
 
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
