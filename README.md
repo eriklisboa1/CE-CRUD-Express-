@@ -42,14 +42,6 @@ O **CRUD Generator - CE CRUD Express** é uma aplicação desktop que facilita a
   - Classes Service (lógica de negócio)
   - Classes Controller (API REST)
 
-## Estrutura Gerada
-
-Após a geração, o projeto terá uma estrutura similar a:
-CrudProject/ ├── pom.xml ├── src/ │ └── main/ │ ├── java/ │ │ └── org/ │ │ └── example/ │ │ └── crudproject/ │ │ ├── CrudProjectApplication.java │ │ ├── model/ │ │ │ └── [Entidade].java │ │ ├── repository/ │ │ │ └── [Entidade]Repository.java │ │ ├── service/ │ │ │ └── [Entidade]Service.java │ │ └── controller/ │ │ └── [Entidade]Controller.java │ └── resources/ │ └── application.properties
-
-
-Cada componente é gerado com base nas informações fornecidas na interface, pronto para ser utilizado e customizado conforme as necessidades do seu projeto.
-
 ## Como Funciona
 
 1. **Configuração das Entidades:**  
@@ -82,7 +74,9 @@ Cada componente é gerado com base nas informações fornecidas na interface, pr
 
 
 
-MIT License
+© MIT License
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
 
 Copyright (c) 2025 Erik Lisboa
 
