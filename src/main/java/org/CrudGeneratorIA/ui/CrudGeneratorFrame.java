@@ -27,7 +27,7 @@ public class CrudGeneratorFrame extends JFrame {
     private List<EntityDefinition> entityList = new ArrayList<>();
 
     public CrudGeneratorFrame() {
-        // Altera o título da janela para "CE (CRUD Express)"
+
         super("CE (CRUD Express)");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setNimbusLookAndFeel();
@@ -46,7 +46,7 @@ public class CrudGeneratorFrame extends JFrame {
                 }
             }
         } catch (Exception e) {
-            // Mantém o padrão se não for possível alterar
+
         }
     }
 
@@ -66,7 +66,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
         gbc.anchor = GridBagConstraints.WEST;
 
-        // Linha 0: Nome da Entidade
+
         gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.fill = GridBagConstraints.HORIZONTAL;
@@ -76,7 +76,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.gridx = 1;
         formPanel.add(tfEntityName, gbc);
 
-        // Linha 1: Label de Atributos
+
         gbc.gridx = 0;
         gbc.gridy = 1;
         gbc.gridwidth = 2;
@@ -85,7 +85,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.fill = GridBagConstraints.HORIZONTAL;
         formPanel.add(new JLabel("Atributos (ex: nome:String, preco:Double):"), gbc);
 
-        // Linha 2: Área de Atributos com JScrollPane
+
         gbc.gridx = 0;
         gbc.gridy = 2;
         gbc.gridwidth = 2;
@@ -99,13 +99,13 @@ public class CrudGeneratorFrame extends JFrame {
         scrollPane.setPreferredSize(new Dimension(400, 200));
         formPanel.add(scrollPane, gbc);
 
-        // Reseta os parâmetros para os próximos componentes
+
         gbc.gridwidth = 1;
         gbc.weightx = 0;
         gbc.weighty = 0;
         gbc.fill = GridBagConstraints.HORIZONTAL;
 
-        // Linha 3: Tipo de Banco de Dados
+
         gbc.gridx = 0;
         gbc.gridy = 3;
         formPanel.add(new JLabel("Tipo de Banco de Dados:"), gbc);
@@ -113,7 +113,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.gridx = 1;
         formPanel.add(cbDatabase, gbc);
 
-        // Linha 4: Nome do Banco de Dados
+
         gbc.gridx = 0;
         gbc.gridy = 4;
         formPanel.add(new JLabel("Nome do Banco de Dados:"), gbc);
@@ -121,7 +121,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.gridx = 1;
         formPanel.add(tfDbName, gbc);
 
-        // Linha 5: Senha do Banco de Dados
+
         gbc.gridx = 0;
         gbc.gridy = 5;
         formPanel.add(new JLabel("Senha do Banco de Dados:"), gbc);
@@ -129,7 +129,7 @@ public class CrudGeneratorFrame extends JFrame {
         gbc.gridx = 1;
         formPanel.add(tfDbPassword, gbc);
 
-        // Linha 6: Painel com os botões "Adicionar Classe" e "Gerar Projeto"
+
         JPanel btnPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 20, 0));
         btnAddClass = new JButton("Adicionar Classe");
         btnAddClass.setFont(new Font("Arial", Font.BOLD, 14));
