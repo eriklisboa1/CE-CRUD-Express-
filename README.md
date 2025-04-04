@@ -71,7 +71,8 @@ O **CRUD Generator - CE CRUD Express** é uma aplicação desktop que facilita a
    mvn clean package ```
 
 ## Diagrama de Arquitetura
-![Diagrama Mermaid](Editor%20_Mermaid%20Chart-2025-04-04-180614.svg)
+![Imagem do WhatsApp](https://raw.githubusercontent.com/eriklisboa1/CE-CRUD-Express-/80836e60db86e9137e686867410e468a18ca6f7a/Imagem%20do%20WhatsApp%20de%202025-04-04%20%C3%A0(s)%2015.38.50_ca090f74.jpg)
+
 
 
 
