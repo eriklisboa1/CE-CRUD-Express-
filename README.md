@@ -47,3 +47,61 @@ O **CRUD Generator - CE CRUD Express** é uma aplicação desktop que facilita a
 Após a geração, o projeto terá uma estrutura similar a:
 CrudProject/ ├── pom.xml ├── src/ │ └── main/ │ ├── java/ │ │ └── org/ │ │ └── example/ │ │ └── crudproject/ │ │ ├── CrudProjectApplication.java │ │ ├── model/ │ │ │ └── [Entidade].java │ │ ├── repository/ │ │ │ └── [Entidade]Repository.java │ │ ├── service/ │ │ │ └── [Entidade]Service.java │ │ └── controller/ │ │ └── [Entidade]Controller.java │ └── resources/ │ └── application.properties
 
+
+Cada componente é gerado com base nas informações fornecidas na interface, pronto para ser utilizado e customizado conforme as necessidades do seu projeto.
+
+## Como Funciona
+
+1. **Configuração das Entidades:**  
+   Insira o nome da entidade e os atributos desejados, utilizando a sintaxe `atributo:Tipo` separados por vírgulas.
+
+2. **Configuração do Banco de Dados:**  
+   Selecione o tipo de banco (PostgreSQL ou MySQL) e informe o nome e a senha do banco de dados.
+
+3. **Adição de Entidades:**  
+   Utilize o botão **"Adicionar Classe"** para armazenar as configurações atuais. Você pode adicionar quantas entidades desejar.
+
+4. **Geração do Projeto:**  
+   Ao clicar em **"Gerar Projeto"**, o sistema cria a estrutura de pastas e gera os arquivos do projeto Spring Boot no diretório escolhido pelo usuário.
+
+## Como Executar
+
+### Pela IDE
+
+- Abra o projeto em sua IDE (por exemplo, IntelliJ IDEA).
+- Execute a classe `CrudGeneratorFrame` ou a classe `Main` que a chama para iniciar a aplicação desktop.
+
+### Pela Linha de Comando
+
+1. **Empacotar o Projeto:**
+
+   ```bash
+   mvn clean package
+
+
+
+
+
+MIT License
+
+Copyright (c) 2025 Erik Lisboa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
