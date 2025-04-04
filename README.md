@@ -75,8 +75,8 @@ Cada componente é gerado com base nas informações fornecidas na interface, pr
 
 1. **Empacotar o Projeto:**
 
-   ```bash
-   mvn clean package
+   ``` 
+   mvn clean package ``` 
 
 
 
